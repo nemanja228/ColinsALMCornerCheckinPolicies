@@ -1,3 +1,7 @@
+# VS 2022 x64 version
+
+[Available here](https://github.com/nemanja228/ColinsALMCornerCheckinPolicies/releases/download/vs2022/ColinsALMCheckinPoliciesInstaller.vsix)
+
 # Colins ALM CornerCheckin Policies
 
 ![](https://colinsalmcorner.visualstudio.com/DefaultCollection/_apis/public/build/definitions/f9a5b53e-c7e7-4025-945e-cc5db1b87c86/11/badge)
