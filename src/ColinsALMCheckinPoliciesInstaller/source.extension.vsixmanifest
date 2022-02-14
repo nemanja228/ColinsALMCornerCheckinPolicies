@@ -2,15 +2,19 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
         <Identity Id="ColinsALMCheckinPolicies..dfc50aa1-4615-441e-96ca-14bee3946343" Version="3.20" Language="en-US" Publisher="colind" />
-        <DisplayName>Colin's ALM Checkin Policies VS 2017</DisplayName>
-        <Description xml:space="preserve">Colin's ALM Corner Custom Checkin Policies, including a Code Review Checkin Policy for VS 2017</Description>
+        <DisplayName>Colin's ALM Checkin Policies VS 2022 (64-bit)</DisplayName>
+        <Description xml:space="preserve">Colin's ALM Corner Custom Checkin Policies, including a Code Review Checkin Policy for VS 2022 </Description>
         <MoreInfo>http://colinsalmcorner.com</MoreInfo>
         <License>license.txt</License>
         <Tags>Code Review; Checkin Policies</Tags>
     </Metadata>
     <Installation>
-        <InstallationTarget Version="[15.0,16.0)" Id="Microsoft.VisualStudio.Community" />
-        <InstallationTarget Version="[15.0,16.0)" Id="Microsoft.VisualStudio.IntegratedShell" />
+        <InstallationTarget Version="[17.0, 18.0)" Id="Microsoft.VisualStudio.Community">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0, 18.0)" Id="Microsoft.VisualStudio.IntegratedShell">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
     </Installation>
     <Dependencies>
     </Dependencies>
@@ -19,6 +23,6 @@
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="ColinsALMCheckinPolicies.pkgdef" />
     </Assets>
     <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0, 18.0)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
 </PackageManifest>
